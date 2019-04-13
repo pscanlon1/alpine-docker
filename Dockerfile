@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:latest
 MAINTAINER Daniel Guerra <daniel.guerra69@gmail.com>
 RUN apk --update --no-cache add docker
 COPY dockerd-entrypoint.sh /usr/local/bin/
